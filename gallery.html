@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+</head>
+<!-- Css file of the widget -->
+<link rel="stylesheet" href="../src/imageSlideshow.css"/>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<!-- jQuery and jQuery UI - dependency of the widget -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+<!-- Javascript file of the widget -->
+<script src="../src/imageSlideshow.js"></script>
+
+<script>
+    $(window).load(function () {
+        var slideshow = $(".imageSlideshow").imageSlideshow({
+            easing: "easeOutCubic",
+            controlNav : false,
+            duration: "600",
+            animationInterval : "5000",
+            keyboard: true,
+            startAt:6
+        });
+
+        slideshow.imageSlideshow('watchResponsiveness');
+    });
+</script>
+
+<style>body{background:url("images/gal_.jpg");}
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    body {
+        background-color: #34495E;
+        min-width: 320px;
+        color:#fff;
+    }
+    .slideWrapper {
+        /*border: 5px solid white;
+        border-radius: 5px;*/
+        margin: auto;
+        margin-top: 50px;
+        display: block;
+        width: 100%;
+        height: 550px;
+        background-color: black;
+    }
+    h1 { margin:30px auto 30px auto; text-align:center; color:dark blue;}
+</style>
+<body>
+</div>
+<h1>Gallery</h1>
+    <div class="slideWrapper imageSlideshow">
+        <ul class="slideshow-content">
+            <li>
+                <img src="" data-src="images/IMG-20170912-WA0005.jpg" alt="img0"/>
+          </li>
+            <li>
+                <img src="" data-src="images/IMG-20170912-WA0021.jpg" alt="img1"/>
+            </li>
+            <li>
+                <img src="" data-src="images/IMG-20170912-WA0036.jpg" alt="img2"/>
+            </li>
+            <li>
+                <img src="" data-src="images/img_9347.jpg" alt="img3"/>
+            </li>
+            <li>
+                <img src="" data-src="images/img_9276.jpg" alt="img4"/>
+            </li>
+            
+            <li>
+                <img src="" data-src="images/img_9202.jpg" alt="img6"/>
+            </li>
+            <li>
+                <img src="" data-src="images/img_9182.jpg" alt="img7"/>
+            </li>
+            <li>
+                <img src="" data-src="images/img_9137.jpg" alt="img8"/>
+            </li>
+            <li>
+                <img src="" data-src="images/img_9136.jpg" alt="img9"/>
+            </li>
+            <li>
+                <img src="images/img_8993.jpg" alt="img10"/>
+            </li>
+<li>
+                <img src="images/img_8830.jpg" alt="img10"/>
+            </li>
+<li>
+                <img src="images/img_8829.jpg" alt="img10"/>
+            </li>
+<li>
+                <img src="images/img_8499.jpg" alt="img10"/>
+            </li>
+<li>
+                <img src="images/img_7991.jpg" alt="img10"/>
+            </li>
+
+<li>
+                <img src="images/img_7990.jpg" alt="img10"/>
+            </li>
+
+<li>
+                <img src="images/IMG-20170912-WA0027.jpg" alt="img10"/>
+            </li>
+      </ul>
+    </div><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+
+</html>
