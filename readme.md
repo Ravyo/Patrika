@@ -1,1 +1,1 @@
-"#Patrika forproviding information to students"
+"#Patrika for providing information to students"
